@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export COMMAND="$1"
+
+java -jar /Users/AmPaschal/IdeaProjects/cli-test/target/cli-test-1.0-SNAPSHOT-jar-with-dependencies.jar run
