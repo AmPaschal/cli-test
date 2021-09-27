@@ -4,6 +4,7 @@ import com.ampaschal.commands.InstallCommand;
 import com.ampaschal.commands.RunCommand;
 import com.ampaschal.commands.TestCommand;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.Callable;
 import picocli.CommandLine;
 
@@ -26,13 +27,15 @@ public class Main implements Callable<Integer> {
             return -1;
         }*/
 
-        String commandName = System.getenv().get("COMMAND");
+        Map<String, String> envVars = System.getenv();
 
-        System.out.println("Command is " + commandName);
+        System.out.println("LOG LEVEL = " + envVars.get("LOG_LEVEL"));
+        System.out.println("LOG FILE = " + envVars.get("LOG_FILE"));
+        System.out.println("GITHUB TOKEN = " + envVars.get("GITHUB_TOKEN"));
+
+        String commandName = envVars.get("COMMAND");
 
         Command command = Command.getCommand(commandName);
-
-        System.out.println("command is " + command.name());
 
         switch (command) {
 
@@ -40,7 +43,7 @@ public class Main implements Callable<Integer> {
                 new InstallCommand().run();
                 break;
             case URL_FILE:
-                new RunCommand().run();
+                new RunCommand().run(commandName);
                 break;
             case TEST:
                 new TestCommand().run();
