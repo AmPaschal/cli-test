@@ -8,7 +8,7 @@ public class RunCommand {
 
         System.out.println("URL_1 NET_SCORE RAMP_UP_SCORE CORRECTNESS_SCORE BUS_FACTOR_SCORE RESPONSIVE_MAINTAINER_SCORE LICENSE_SCORE");
 
-        if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/single-url-file.txt".equals(commandName)) {
+        /*if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/single-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
         } else if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/two-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
@@ -25,9 +25,9 @@ public class RunCommand {
             System.out.println("https://github.com/AmPaschal/moduleC 0.5 0.5 0.7 0.3 0.2 0.8");
             System.out.println("https://github.com/AmPaschal/moduleD 0.5 0.5 0.3 0.7 0.6 0.4");
             System.out.println("https://github.com/AmPaschal/moduleE 0.5 0.5 0.7 0.3 0.6 0.4");
-        }
+        }*/
 
-        /*if ("/home/min/a/pamusuo/auto-grader/single-url-file.txt".equals(commandName)) {
+        if ("/home/min/a/pamusuo/auto-grader/single-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
         } else if ("/home/min/a/pamusuo/auto-grader//two-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
@@ -44,7 +44,7 @@ public class RunCommand {
             System.out.println("https://github.com/AmPaschal/moduleC 0.5 0.5 0.7 0.3 0.2 0.8");
             System.out.println("https://github.com/AmPaschal/moduleD 0.5 0.5 0.3 0.7 0.6 0.4");
             System.out.println("https://github.com/AmPaschal/moduleE 0.5 0.5 0.7 0.3 0.6 0.4");
-        }*/
+        }
 
 
     }
