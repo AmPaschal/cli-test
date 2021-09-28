@@ -13,7 +13,7 @@ public class RunCommand {
         } else if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/two-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
             System.out.println("https://www.npmjs.com/package/express 0.5 0.5 0.7 0.3 0.6 0.4");
-        } else if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/multi-url-file.txt".equals(commandName)) {
+        } else if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/multiple-url-file.txt".equals(commandName)) {
             System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
             System.out.println("https://www.npmjs.com/package/express 0.5 0.5 0.7 0.3 0.6 0.4");
             System.out.println("https://github.com/nullivex/nodist 0.5 0.5 0.7 0.3 0.2 0.8");
