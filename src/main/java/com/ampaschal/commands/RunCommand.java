@@ -20,9 +20,9 @@ public class RunCommand {
             System.out.println("https://github.com/lodash/lodash 0.5 0.5 0.3 0.7 0.6 0.4");
             System.out.println("https://www.npmjs.com/package/browserify 0.5 0.5 0.7 0.3 0.6 0.4");
         } else if ("/Users/AmPaschal/IdeaProjects/Module Rank Auto-grader/same-url-file.txt".equals(commandName)) {
-            System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5 0.5 0.7 0.3 0.4 0.6");
-            System.out.println("https://www.npmjs.com/package/express 0.5 0.5 0.7 0.3 0.6 0.4");
-            System.out.println("https://github.com/nullivex/nodist 0.5 0.5 0.7 0.3 0.2 0.8");
+            System.out.println("https://github.com/cloudinary/cloudinary_npm 0.5   0.5   0.7   0.3   0.4   0.6");
+            System.out.println("https://www.npmjs.com/package/express 0.5   0.5   0.7   0.3   0.6   0.4");
+            System.out.println("https://github.com/nullivex/nodist 0.5   0.5   0.7   0.3   0.2   0.8");
             System.out.println("https://github.com/lodash/lodash 0.5 0.5 0.3 0.7 0.6 0.4");
             System.out.println("https://www.npmjs.com/package/browserify 0.5 0.5 0.7 0.3 0.6 0.4");
         } else {
